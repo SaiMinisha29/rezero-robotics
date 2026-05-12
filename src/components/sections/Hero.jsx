@@ -1,9 +1,11 @@
 export default function Hero() {
   return (
     <section id="hero" className="hero">
+
       <div className="container hero-content">
 
         <div className="hero-text">
+
           <h1>
             Building Tomorrow’s Engineers — Starting Today
           </h1>
@@ -14,14 +16,23 @@ export default function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-btn">
-              Book Free Demo
-            </button>
 
-            <button className="secondary-btn">
+            <a
+              href="#book-demo"
+              className="primary-btn"
+            >
+              Book Free Demo
+            </a>
+
+            <a
+              href="#curriculum"
+              className="secondary-btn"
+            >
               Explore Curriculum
-            </button>
+            </a>
+
           </div>
+
         </div>
 
         <div className="hero-image">
@@ -29,6 +40,7 @@ export default function Hero() {
         </div>
 
       </div>
+
     </section>
   );
 }

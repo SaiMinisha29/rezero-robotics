@@ -6,6 +6,9 @@ import About from "../components/sections/About";
 import Curriculum from "../components/sections/Curriculum";
 import Projects from "../components/sections/Projects";
 import Testimonials from "../components/sections/Testimonials";
+import BookDemo from "../components/sections/BookDemo";
+import Contact from "../components/sections/Contact";
+
 export default function Home() {
   return (
     <>
@@ -17,6 +20,9 @@ export default function Home() {
          <Curriculum />
          <Projects />
          <Testimonials />
+         <BookDemo />
+        <Contact />
+         
       </main>
 
       <Footer />
