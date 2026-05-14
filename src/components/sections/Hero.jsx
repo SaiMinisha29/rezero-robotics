@@ -1,6 +1,6 @@
 import { Player } from "@lottiefiles/react-lottie-player";
 
-import robotAnimation from "../../assests/animations/roboticanimation.json";
+import robotAnimation from "../../assets/animations/roboticanimation.json";
 
 export default function Hero() {
   return (

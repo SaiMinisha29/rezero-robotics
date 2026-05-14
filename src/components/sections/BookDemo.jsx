@@ -1,4 +1,4 @@
-import demoPageImage from "../../assests/images/demopageimage.jpg";
+import demoPageImage from "../../assets/images/demopageimage.jpg";
 export default function BookDemo() {
 
   return (

@@ -1,11 +1,11 @@
-import grade3 from "../../assests/images/grade3.jpg";
-import grade4 from "../../assests/images/grade4.jpg";
-import grade5 from "../../assests/images/grade5.jpg";
-import grade6 from "../../assests/images/grade6.jpg";
-import grade7 from "../../assests/images/grade7.jpg";
-import grade8 from "../../assests/images/grade8.jpg";
-import grade9 from "../../assests/images/grade9.jpg";
-import grade10 from "../../assests/images/grade10.jpg";
+import grade3 from "../../assets/images/grade3.jpg";
+import grade4 from "../../assets/images/grade4.jpg";
+import grade5 from "../../assets/images/grade5.jpg";
+import grade6 from "../../assets/images/grade6.jpg";
+import grade7 from "../../assets/images/grade7.jpg";
+import grade8 from "../../assets/images/grade8.jpg";
+import grade9 from "../../assets/images/grade9.jpg";
+import grade10 from "../../assets/images/grade10.jpg";
 
 export default function Projects() {
 
