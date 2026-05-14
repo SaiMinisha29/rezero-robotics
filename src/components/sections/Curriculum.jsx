@@ -1,69 +1,87 @@
 export default function Curriculum() {
 
-  const curriculumData = [
-    {
-      grade: "Grade 3",
-      title: "Scratch Programming",
-      platform: "Scratch",
-      desc: "Students learn coding fundamentals using visual programming."
-    },
+const curriculumData = [
 
-    {
-      grade: "Grade 4",
-      title: "Traffic Light Robot",
-      platform: "Arduino Uno",
-      desc: "Introduction to circuits, LEDs, and automation systems."
-    },
+  {
+    grade: "Grade 3",
 
-    {
-      grade: "Grade 5",
-      title: "Obstacle Avoiding Car",
-      platform: "Arduino",
-      desc: "Learning sensors and autonomous movement."
-    },
+    platform: "Scratch Programming",
 
-    {
-      grade: "Grade 6",
-      title: "Line Following Robot",
-      platform: "Arduino",
-      desc: "Building robots using IR sensors and logic."
-    },
+    desc:
+      "Students are introduced to computational thinking through visual block coding. They learn sequencing, animations, logic building, storytelling, and basic game development in a fun and interactive way."
+  },
 
-    {
-      grade: "Grade 7",
-      title: "RFID Attendance System",
-      platform: "Arduino + RFID",
-      desc: "Understanding RFID technology and smart systems."
-    },
+  {
+    grade: "Grade 4",
 
-    {
-      grade: "Grade 8",
-      title: "Gesture Controlled Robot Arm",
-      platform: "Arduino + Servos",
-      desc: "Learning motion control and robotics mechanics."
-    },
+    platform: "Basic Electronics & Arduino",
 
-    {
-      grade: "Grade 9",
-      title: "Maze Solving Robot",
-      platform: "Arduino Mega",
-      desc: "Advanced autonomous navigation and algorithms."
-    },
+    desc:
+      "Students explore circuits, LEDs, sensors, and automation concepts using beginner-friendly Arduino activities that encourage creativity and hands-on experimentation."
+  },
 
-    {
-      grade: "Grade 10",
-      title: "Bluetooth RC Car",
-      platform: "ESP32",
-      desc: "Wireless communication and remote robotics."
-    }
-  ];
+  {
+    grade: "Grade 5",
+
+    platform: "Robotics & Sensors",
+
+    desc:
+      "Students learn the fundamentals of robotics by working with sensors, motors, and autonomous movement while developing logical thinking and problem-solving skills."
+  },
+
+  {
+    grade: "Grade 6",
+
+    platform: "Arduino Robotics",
+
+    desc:
+      "Students build intelligent robotic systems using Arduino, IR sensors, and automation principles while understanding real-world robotics applications."
+  },
+
+  {
+    grade: "Grade 7",
+
+    platform: "IoT & Smart Systems",
+
+    desc:
+      "Students are introduced to smart technologies such as RFID, wireless communication, and connected systems to understand modern automation and digital innovation."
+  },
+
+  {
+    grade: "Grade 8",
+
+    platform: "Advanced Robotics",
+
+    desc:
+      "Students work on robotic mechanisms, motion control, and interactive systems while strengthening creativity, teamwork, and engineering design thinking."
+  },
+
+  {
+    grade: "Grade 9",
+
+    platform: "AI & Autonomous Systems",
+
+    desc:
+      "Students learn advanced robotics concepts including autonomous navigation, intelligent decision making, algorithms, and real-world AI applications."
+  },
+
+  {
+    grade: "Grade 10",
+
+    platform: "Embedded Systems & AI",
+
+    desc:
+      "Students explore advanced embedded systems, wireless technologies, AI integration, and real-world innovation projects to prepare for future technologies and careers."
+  }
+
+];
 
   return (
     <section id="curriculum" className="section">
 
       <div className="container">
 
-        <h2>Our 8-Year Robotics Journey</h2>
+        <h2>Robotics Journey With Us</h2>
 
         <p className="section-text">
           From beginner coding to advanced robotics engineering.

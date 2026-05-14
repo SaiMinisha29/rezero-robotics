@@ -8,6 +8,7 @@ import Projects from "../components/sections/Projects";
 import Testimonials from "../components/sections/Testimonials";
 import BookDemo from "../components/sections/BookDemo";
 import Contact from "../components/sections/Contact";
+import LearningModes from "../components/sections/LearningModes";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       <main>
         <Hero />
+        <LearningModes />
          <About />
          <Curriculum />
          <Projects />
