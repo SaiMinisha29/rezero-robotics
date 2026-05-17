@@ -246,3 +246,58 @@ video {
   }
 
 }
+/* AUTO FLOATING EFFECT */
+
+.project-card,
+.timeline-card,
+.demo-card,
+.mode-card,
+.contact-card {
+
+  animation:
+    floatCard 4s ease-in-out infinite;
+}
+
+/* DIFFERENT DELAYS */
+
+.project-card:nth-child(2),
+.timeline-card:nth-child(2),
+.demo-card:nth-child(2),
+.mode-card:nth-child(2) {
+
+  animation-delay: 1s;
+}
+
+.project-card:nth-child(3),
+.timeline-card:nth-child(3) {
+
+  animation-delay: 2s;
+}
+
+/* FLOAT ANIMATION */
+
+@keyframes floatCard {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.project-card:active,
+.timeline-card:active,
+.demo-card:active,
+.mode-card:active,
+.contact-card:active {
+
+  transform: scale(0.97);
+
+  transition: 0.2s ease;
+}
